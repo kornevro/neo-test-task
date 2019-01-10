@@ -15,6 +15,10 @@ import static com.codeborne.selenide.Selenide.open;
 import static com.neotech.context.ContextKey.MATCH_COLLECTION;
 import static com.neotech.testfunctional.OtherHelpers.*;
 
+/*
+*       Имплементация тест-степов для cucumber-сценариев 
+* */
+
 public class StepDefs {
 
     @Given("^Launch browser and go to url: (.*)$")
