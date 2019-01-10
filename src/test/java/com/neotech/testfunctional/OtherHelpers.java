@@ -9,6 +9,10 @@ import java.util.*;
 import static com.neotech.context.ContextKey.MATCH_COLLECTION;
 import static com.neotech.pageobject.PageElements.*;
 
+/*
+*       Вспомогательные низкоуровневые методы, используются в тест-степах
+* */
+
 public class OtherHelpers {
 
     public static int getMatchRowsCount() {
